@@ -1,0 +1,20 @@
+RPI -> RPI Kamera kabel -> RPI Kamera
+
+RPI -> I2C -> Gyroskop + Accelerometr
+RPI -> I2C -> Compass
+RPI -> I2C -> Proudový senzor baterky
+
+RPI -> Serial /dev/ttyS0 -> GPS
+RPI -> Ethernet -> MicroTik
+
+MicroTik -> Ethernet + Ethernet controller -> Arduino MEGA
+
+Arduino MEGA -> Motor shield -> Motory
+
+Arduino MEGA -> Pin 24 -> Ultrazvuk Přední Vlevo
+Arduino MEGA -> Pin 25 -> Ultrazvuk Přední Vpravo
+Arduino MEGA -> Pin 28 -> Ultrazvuk Zadní Vlevo
+Arduino MEGA -> Pin 29 -> Ultrazvuk Zadní Vpravo
+
+ESP -> Půl milionu kabelů -> Nikde
+Relátka -> Půl milionu kabelů -> Nikde
